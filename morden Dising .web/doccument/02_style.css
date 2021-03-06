@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: linear-gradient(57deg, rgb(233, 78, 78)lue); */
+    background-image: url(../img/giza2.jpg);
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-header {
+    width: 100%;
+    height: 10vh;
+    /* background: linear-gradient(57deg, #00c6a7, #1e4d92); */
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%); */
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: aliceblue;
+    line-height: 100%;
+}
+
+.logo {
+    width: 50%;
+    height: 100px;
+}
+
+.logo h1 {
+    line-height: 30px;
+    padding: 30px;
+}
+
+.manu {
+    width: 50%;
+    height: 100px;
+}
+
+.manu ul {
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.manu ul li {
+    color: rgb(238, 238, 238);
+    text-transform: uppercase;
+}
+
+Section {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo a h1 {
+    color: aliceblue;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.left-side img {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    margin: 0%;
+    flex-direction: row;
+    justify-content: first baseline;
+    align-items: center;
+}
+
+.right-side {
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+
+.our {
+    color: aqua;
+    font-size: 50px;
+}
+
+.we {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(8, 32, 54, 0.993);
+    /* background-image: url(../img/computer-technology-slides.jpg);
+    padding: 20px; */
+}
+
+button {
+    color: #f7f7f7;
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background: linear-gradient(57deg, rgb(233, 78, 78)lue); */
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+}
